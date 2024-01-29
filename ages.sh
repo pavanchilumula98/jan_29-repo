@@ -10,10 +10,10 @@ then
 elif [ $sal -lt 10000 ]
 then
 	echo 'no tax'
-elif [ $sal -gt 10000 -a  $sal -lt 250000 ]
+elif [ $sal -gt 10000 -a  $sal -le 25000 ]
 then
 	echo 'tax is 5%'
-elif [ $sal -gt 250000 ]
+elif [ $sal -gt 25000 ]
 then
 	echo 'tax is 10%'
 else
