@@ -11,9 +11,12 @@ then
 elif [ $age -gt 13 -a $age -lt 19 ]
 then
 	echo "Display as a teenager"
-elif [ $age -gt 20 ]
+elif [ $age -gt 20 -a $age -lt 60 ]
 then 
 	echo "Display as a adult"
+elif [ $age -gt 60 ]
+then
+	echo "Oldage"
 else
 	echo "Display invalid data"
 fi
