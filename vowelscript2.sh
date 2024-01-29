@@ -15,6 +15,6 @@ case $char in
 	echo "the character is a upper case vowel"
 	;;
 *)
-	echo "The cahracter is not lovercase vowel"
+	echo "The character is not lowercase vowel"
 	;;
 esac
