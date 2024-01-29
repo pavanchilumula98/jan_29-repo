@@ -4,7 +4,10 @@
 #
 echo 'enter salary of user'
 read sal
-if [ $sal -lt 10000 ];
+if [ $sal -eq 10000 ];
+then 
+	echo 'tax is 2%'
+elif [ $sal -lt 10000 ]
 then
 	echo 'no tax'
 elif [ $sal -gt 10000 -a  $sal -lt 250000 ]
